@@ -1,0 +1,94 @@
+header .header-nav {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+header .header-nav ul {
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+}
+header .header-nav ul a {
+  color: black;
+}
+header .header-nav ul .header-li {
+  margin-right: 100px;
+}
+header .header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  gap: 50px;
+}
+header .header-left {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+header .header-left h1 {
+  max-width: 509px;
+  font-size: 44px;
+  padding: 10px;
+}
+header .header-left p {
+  max-width: 497px;
+  padding: 10px;
+}
+header .header-btn {
+  max-width: 40%;
+  padding: 10px;
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+}
+header .header-main {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background: #EDF7FA;
+  padding: 15px;
+}
+header .header-main .header-h4 {
+  text-align: end;
+  color: #00A8CC;
+}
+header .header-main .header-boxs {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  padding: 30px;
+}
+header .header-main .header-boxs h2 {
+  max-width: 308px;
+}
+header .header-main .header-boxs .header-desc {
+  max-width: 308px;
+}
+header .header-main .header-boxs .tetxts {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 811px) {
+  header .header-box {
+    text-align: center;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  header .header-box .header-left {
+    text-align: center;
+  }
+}
+@media (max-width: 715px) {
+  header .header-main {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=header.css.map */

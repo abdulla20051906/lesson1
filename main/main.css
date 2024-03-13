@@ -1,0 +1,39 @@
+main .main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 5%;
+  gap: 30px;
+}
+main .main-box .main-boxs {
+  margin-top: 4%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid;
+}
+main .main-box .main-boxs .main-box-right {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+main .main-box .main-boxs .main-box-right p {
+  max-width: 594px;
+}
+main .main-box .main-boxs .main-box-right h4 {
+  background-color: indigo;
+  padding: 10px;
+  border-radius: 30px;
+  width: 50px;
+}
+
+@media (max-width: 584px) {
+  .main-box .main-boxs {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */

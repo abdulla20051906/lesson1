@@ -1,0 +1,10 @@
+@import url(../header/header.css);
+@import url(../main/main.css);
+@import url(../foter/foter.css);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}/*# sourceMappingURL=global.css.map */
