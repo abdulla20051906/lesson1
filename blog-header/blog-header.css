@@ -1,0 +1,16 @@
+header .header-nav {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+header .header-nav ul {
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+}
+header .header-nav ul a {
+  color: black;
+}
+header .header-nav ul .header-li {
+  margin-right: 100px;
+}/*# sourceMappingURL=blog-header.css.map */

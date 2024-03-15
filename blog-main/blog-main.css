@@ -1,0 +1,25 @@
+main .main-boxs {
+  margin-top: 5%;
+  display: flex;
+  gap: 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .main-boxs .main-box {
+  border-bottom: 1px solid;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: auto 0px;
+  text-align: start;
+  padding: 5px;
+}
+main .main-boxs .main-box .main-text {
+  display: flex;
+  gap: 15px;
+}
+main .main-boxs .main-box p {
+  max-width: 685px;
+}/*# sourceMappingURL=blog-main.css.map */

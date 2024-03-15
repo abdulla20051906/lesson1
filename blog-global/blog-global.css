@@ -1,0 +1,10 @@
+@import url(../blog-header/blog-header.css);
+@import url(../blog-main/blog-main.css);
+@import url(../blog-footer/blog_foter.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}/*# sourceMappingURL=blog-global.css.map */
