@@ -27,3 +27,31 @@ main{
         }
     }
 }
+@media (max-width:610px) {
+     main{
+        .main-boxs{
+            .main-box{
+                text-align: center;
+             
+            }
+            .main-text{
+                text-align: center;
+          
+            }
+        }
+    }
+}
+
+@media (max-width:610px) {
+   
+       .main-boxs{
+           .main-box{
+            .main-text{
+           padding-left: 50px;
+            }
+           }
+         
+       }
+   }
+
+

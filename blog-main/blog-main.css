@@ -22,4 +22,18 @@ main .main-boxs .main-box .main-text {
 }
 main .main-boxs .main-box p {
   max-width: 685px;
+}
+
+@media (max-width: 610px) {
+  main .main-boxs .main-box {
+    text-align: center;
+  }
+  main .main-boxs .main-text {
+    text-align: center;
+  }
+}
+@media (max-width: 610px) {
+  .main-boxs .main-box .main-text {
+    padding-left: 50px;
+  }
 }/*# sourceMappingURL=blog-main.css.map */
