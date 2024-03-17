@@ -1,0 +1,10 @@
+@import url(../work-header/work-header.css);
+@import url(../work-main/work.main.css);
+@import url(../work-foter/work-foter.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}/*# sourceMappingURL=wok-global.css.map */

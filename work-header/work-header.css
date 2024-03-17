@@ -1,0 +1,19 @@
+header .header-nav {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+header .header-nav ul {
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+}
+header .header-nav ul a {
+  color: black;
+}
+header .header-nav ul .header-li {
+  margin-right: 100px;
+}
+header .header-nav ul .header-nav-a a {
+  color: red;
+}/*# sourceMappingURL=work-header.css.map */

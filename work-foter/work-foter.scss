@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 200px;
+    .foter-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+       span{
+        i{
+            font-size: 25px;
+        }
+       }
+    }
+}

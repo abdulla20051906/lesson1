@@ -1,0 +1,26 @@
+header{
+    .header-nav{
+        display: flex;
+         justify-content: end;
+     
+         padding: 10px;
+         ul{
+            display: flex;
+            gap: 30px;
+            padding-top: 10px;
+               a{
+                color: black;
+               }
+             .header-li{
+                margin-right: 100px;
+             
+             }
+             .header-nav-a{
+              a{
+                color: red;
+              }
+             
+             }
+         }
+        }
+    }
